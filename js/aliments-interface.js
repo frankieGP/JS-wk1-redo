@@ -3,8 +3,5 @@ $(document).ready(function() {
     event.preventDefault();
     var aliment = $('#aliment').val();
     alert(aliment);
-    // output.forEach(function(element) {
-    //   $('#solution').append("<li>" + element + "</li>");
-    // });
   });
 });
