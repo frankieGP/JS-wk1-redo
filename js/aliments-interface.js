@@ -1,3 +1,5 @@
+var Doctor = require('./../js/doctors.js').doctorModule;
+
 $(document).ready(function() {
   $('#sickness-form').submit(function(event) {
     event.preventDefault();
