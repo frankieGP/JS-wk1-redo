@@ -1,3 +1,5 @@
+var apiKey = require('./../.env').apiKey;
+
 exports.doctorModule = Doctor;
 var Doctor = 1;
 
