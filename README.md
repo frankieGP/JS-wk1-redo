@@ -11,7 +11,7 @@ This website was built to demonstrate my knowledge of the Week 1 material of Mod
 ## Setup/Installation Requirements
 
 * _Clone the repository_
-* _Install Node.js, Gulp on you computer with the terminal.
+* _Install Node.js, Gulp on you computer with the terminal._
 
 * _In the project directory run the following:_
 $ npm install
@@ -20,7 +20,7 @@ $ gulp build
 $ gulp serve
 
 * _Obtain an API Key from https://developer.betterdoctor.com/
-* _Create a .env file at the top level of your directory, and paste your API key into the file and set it equal to the variable exports.apiKey.
+* _Create a .env file at the top level of your directory, and paste your API key into the file and set it equal to the variable exports.apiKey._
 
  exports.apiKey = "YOUR-APIKEY-GOES-HERE";
 
