@@ -14,20 +14,11 @@ Doctor.prototype.getDoctors = function(medicalIssue) {
     }));
 
 
-      })
-
-      .fail(function(error){
-         console.log("No matches found. Please try again.");
+      }).fail(function(error){
+        $('#doctor-list').text("No matches found. Please try again.");
        });
-   };
+   }
 
-
-
-
-
-
-
-  //   //FAIL MESSAGE
 
 
 
